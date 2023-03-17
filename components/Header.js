@@ -77,11 +77,9 @@ const Header = ({ navBarTitle, fullWidth }) => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <rect
-                    width="24"
-                    height="24"
-                    className="fill-current text-black dark:text-white"
-                  />
+                  <p className="ml-2 font-medium text-day dark:text-night header-name">
+                  {navBarTitle}
+                  </p>
                   <rect width="24" height="24" fill="url(#paint0_radial)" />
                   <defs>
                     <radialGradient
@@ -103,7 +101,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           {navBarTitle
             ? (
             <p className="ml-2 font-medium text-day dark:text-night header-name">
-              {navBarTitle}
+              // {navBarTitle}
             </p>
               )
             : (
