@@ -69,7 +69,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
         <div className="flex items-center">
           <Link href="/">
             <a aria-label={BLOG.title}>
-              <div className="h-4 font-medium text-night">
+              <div className="h-6 font-medium text-night">
                 {BLOG.title}
               </div>
             </a>
