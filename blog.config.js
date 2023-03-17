@@ -2,8 +2,8 @@ const BLOG = {
   title: "",
   author: "Christopher Huang",
   email: 'christopher.huang26@gmail.com',
-  link: '',
-  description: '',
+  link: 'https://www.linkedin.com/in/christopher-huang-675ab329/',
+  description: 'ini deskripsi',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
