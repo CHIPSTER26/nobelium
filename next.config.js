@@ -1,7 +1,7 @@
 module.exports = {
   webpack5: true,
   images: {
-    domains: ['gravatar.com']
+    domains: ['github.com']
   },
   eslint: {
     dirs: [
