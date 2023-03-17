@@ -69,15 +69,15 @@ const Header = ({ navBarTitle, fullWidth }) => {
         <div className="flex items-center">
           <Link href="/">
             <a aria-label={BLOG.title}>
-              <p className="ml-2 font-medium text-day dark:text-night header-name">
+              <div className="h-6">
                 {BLOG.title}
-              </p>
+              </div>
             </a>
           </Link>
           {navBarTitle
             ? (
             <p className="ml-2 font-medium text-day dark:text-night header-name">
-              {BLOG.title}
+              {BLOG.description}
             </p>
               )
             : (
