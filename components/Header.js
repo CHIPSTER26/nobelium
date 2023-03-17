@@ -107,7 +107,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
             </p>
           )}
         </div>
-        <NavBar {BLOG.title}/>
+        <NavBar />
       </div>
     </>
   )
