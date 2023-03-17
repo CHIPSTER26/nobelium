@@ -2,8 +2,8 @@ const BLOG = {
   title: "Chris's Blog",
   author: "Christopher Huang",
   email: 'christopher.huang26@gmail.com',
-  link: 'https://www.linkedin.com/in/christopher-huang-675ab329/',
-  description: 'ini deskripsi',
+  link: '',
+  description: '',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -17,7 +17,7 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://en.gravatar.com/christopherhuang26gmailcom', // The link to generate OG image, don't end with a slash
-  socialLink: '',
+  socialLink: 'https://www.linkedin.com/in/christopher-huang-675ab329/',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
