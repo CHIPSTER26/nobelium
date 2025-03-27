@@ -13,7 +13,7 @@ const BLOG = {
   since: 2021, // If leave this empty, current year will be used.
   postsPerPage: 9999,
   sortByDate: false,
-  showAbout: true,
+  showPrinting: true,
   showProgramming: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
